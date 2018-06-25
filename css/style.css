@@ -1,0 +1,104 @@
+
+
+.navbar .nav-item {
+      font-size: 1.4rem;
+      padding-right: 1.4rem; }
+
+   a{
+        
+            color: #3D3060;
+            text-decoration: none;
+            background-color: transparent;
+            font-size: 16px;
+            font-weight: bold;
+      }
+
+    a:hover, a:hover span { 
+      color: yellow !important;
+    }
+
+
+.contactanos{
+  background-color: #3A3268
+}
+
+.form-area
+{
+    background-color: #1CB5BE;
+	padding: 10px 40px 60px;
+	margin: 10px 0px 60px;
+	border: 1px solid GREY;
+  }
+  
+.btn-contact{
+  
+    background-color:#1CB5BE;
+    color: #3A3268;
+    font-weight: bold;
+    border: 2px solid #3A3268; /* Green */
+    transition-duration: 0.4s;
+}
+.btn-contact:hover {
+  background-color: #3A3268; /* Green */
+  color: white;
+}
+
+.footers{
+  overflow: hidden;
+  background:#3A3268 !important;
+  color:white;
+  
+
+}
+
+.fondo{
+  overflow: auto;
+  background-color:#3A3268 !important;
+
+
+}
+
+.cursos{
+  overflow: auto;
+  color:#1CB5BE;
+  margin-right: 2px; 
+  margin-left: 2px; 
+  margin-top: 2px;
+  margin-bottom: 2px; 
+  text-align: center; 
+    width: 50%;
+    padding: 70px 0;
+
+}
+
+.cursos:hover{
+  background-color: #1CB5BE; 
+  color: white;
+}
+
+.map_area .mapBox {
+  height:800px;
+  width: 100%;
+  position: relative !important;
+  left: 0px;
+      margin-right: 0px; 
+     margin-left: 0px; 
+}
+
+
+.boton{
+  width: 100%;
+  height: 100%;
+  border-radius:0;
+  background: #3A3268;
+  color: #1CB5BE;
+  padding: 14px 24px;
+  border: 0 none;
+ 
+  font-weight: bold;
+}
+
+.boton:hover{
+  background-color: #1CB5BE; 
+  color: white;
+}
