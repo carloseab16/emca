@@ -58,7 +58,7 @@
 
 }
 
-.cursos{
+.cursos1{
   overflow: auto;
   color:#1CB5BE;
   margin-right: 2px; 
@@ -71,7 +71,7 @@
 
 }
 
-.cursos:hover{
+.cursos1:hover{
   background-color: #1CB5BE; 
   color: white;
 }
@@ -84,7 +84,11 @@
       margin-right: 0px; 
      margin-left: 0px; 
 }
-
+.programas{
+  width: 3em;
+  height: 14em;
+  padding-bottom: 10px;
+}
 
 .boton{
   width: 100%;
@@ -94,11 +98,95 @@
   color: #1CB5BE;
   padding: 14px 24px;
   border: 0 none;
- 
+  white-space: normal; 
+  overflow: hidden;
+  text-overflow: ellipsis;
   font-weight: bold;
+  font-size:1.5em;
 }
 
 .boton:hover{
   background-color: #1CB5BE; 
   color: white;
 }
+.principal {
+  height: 100%;
+  margin: 0;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("../img/p1.jpg");
+  /* Full height */
+  height: 500px; 
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg2 {
+  /* The image used */
+  background-image: url("../img/p2.jpg");
+  /* Full height */
+  height: 500px; 
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg3 {
+  /* The image used */
+  background-image: url("../img/p3.jpg");
+  /* Full height */
+  height: 500px; 
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg4 {
+  /* The image used */
+  background-image: url("../img/p4.jpg");
+  /* Full height */
+  height: 500px; 
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.fondoplomo{
+ background-color: #EFF3F5;
+ color:#3A3268;
+
+}
+
+
+#programas [aria-expanded="true"] { 
+  background-color:#1CB5BE;
+  color: white;
+}
+
+
+.boton2{
+  width: 75%;
+  border-radius:0;
+  background: #FFE800;
+  color: #A33489;
+  padding: 14px 24px;
+  border: 0 none;
+  white-space: normal; 
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: bold;
+  font-size:1.5em;
+}
+
+.boton2:hover{
+  background-color: #A33489; 
+  color: white;
+}
+
