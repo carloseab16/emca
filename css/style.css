@@ -2,12 +2,10 @@
   box-shadow: 1px 1px 5px #3A3268;
   /*opacity: 0.9;*/
   background: #fff; }
-.body{
-  font-size: 50px;
-}
+
 .navbar .nav-item {
-      font-size: 1.4rem;
-      padding-right: 1.4rem; }
+      font-size: 1.4rem  !important ;
+      padding-right: 1.4rem !important; }
 
    a{
         
@@ -117,7 +115,7 @@
   overflow: hidden;
   text-overflow: ellipsis;
   font-weight: bold;
-  font-size:1.5em;
+  font-size:1.5em  !important;
 }
 
 .boton:hover{
@@ -197,7 +195,7 @@
   overflow: hidden;
   text-overflow: ellipsis;
   font-weight: bold;
-  font-size:1.5em;
+  font-size:1.5em  !important;
 }
 
 .boton2:hover{
