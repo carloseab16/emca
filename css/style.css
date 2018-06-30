@@ -1,5 +1,10 @@
-
-
+.navbar {
+  box-shadow: 1px 1px 5px #3A3268;
+  /*opacity: 0.9;*/
+  background: #fff; }
+.body{
+  font-size: 50px;
+}
 .navbar .nav-item {
       font-size: 1.4rem;
       padding-right: 1.4rem; }
