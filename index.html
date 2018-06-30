@@ -7,26 +7,31 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
     crossorigin="anonymous">
+ 
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
     crossorigin="anonymous">
   <link rel="stylesheet" href="css/style.css">
   <link rel="icon" href="img/icon.png">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <title>EMCA</title>
 </head>
 
 <body>
 
   <!-- NAVBAR -->
-  <header class="page-header" style="margin-bottom: 2.95em">
+  <header class="page-header" style="margin-bottom: 2.95em" id="header">
     <nav class="navbar navbar-expand-md fixed-top" style="background:#1CB5BE">
 
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar1">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar">
         <i class="fa fa-bars" style="color: #3A3268"></i>
       </button>
-      <div class="collapse navbar-collapse" id="navbar1">
+      <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="navbar-nav mr-auto ">
+            <li class="nav-item active my-toggler">
+                <a href="#header" class="nav-link">INICIO</a>
+              </li>
           <li class="nav-item active my-toggler">
-            <a href="#home" class="nav-link">QUIENÉS SOMOS</a>
+            <a href="quienes.html" class="nav-link">QUIENÉS SOMOS</a>
           </li>
           <li class="nav-item">
             <a href="#programas" class="nav-link">PROGRAMAS EDUCATIVOS</a>
@@ -105,9 +110,9 @@
   </section>
 
   <!-- CURSOS -->
-  <section id="programas" class="py-5 fondoplomo">
+  <section id="programas" class=" fondoplomo">
     <div class="container" style="max-width:none">
-      <h3 class="text-center mb-5" style="color:#3A3268;font-size: 2em">Programas Educativos</h3>
+      <h3 class="text-center mb-5 mt-5" style="color:#3A3268;font-size: 2em">Programas Educativos</h3>
       <!-- <h3 class="d-block d-xl-none" style="text-align: center;color:#3A3268">Programas Educativos</h3>-->
       <div class="row ">
         <div class="col-md-1 "> </div>
@@ -144,7 +149,7 @@
   <!-- Produccion -->
   <div id="produccion" class="collapse principal " aria-labelledby="btnproduccion" data-parent="#programas">
       <div class="bg"></div>
-      <div class="card card-body py-5" style="font-size: 1.2em">
+      <div class="card card-body py-5" style="background: #EFF3F5; font-size: 1.2em">
         <h3>Programa técnico de producción y sonido</h3>
         <hr>
         <div class="row">
@@ -178,7 +183,7 @@
   <!-- PRE-EMCA -->
   <div id="preemca" class="collapse principal "  aria-labelledby="btnpreemca" data-parent="#programas" >
       <div class="bg2"></div>
-      <div class="card card-body py-5" style="font-size: 1.2em">
+      <div class="card card-body py-5" style="background: #EFF3F5; font-size: 1.2em">
         <h3>Pre-emca</h3>
         <hr>
         <div class="row">
@@ -210,9 +215,9 @@
   <!-- libres -->
   <div id="libres" class="collapse principal"  aria-labelledby="btnlibres" data-parent="#programas" >
       <div class="bg3"></div>
-      <div class="card card-body py-5" style="font-size: 1.2em">
+      <div class="card card-body py-5" style="background: #EFF3F5; font-size: 1.2em">
         <h3>Cursos libres</h3>
-        <hr>
+        <br>
         <div class="row">
           <div class="col-sm-6">
             <span>Nuestros cursos libres son clases particulares y/o grupales 
@@ -249,9 +254,9 @@
         </div>
       </div>
 
-      <div class="card card-body py-5" style="font-size: 1.2em">
+      <div class="card card-body py-5" style="background: #EFF3F5; font-size: 1.2em">
           <h3>Cursos de extensión</h3>
-          <hr>
+          <br>
           <div class="row">
             <div class="col-sm-6">
               <span>Durante todo el año vamos aperturando cursos de extensión  
@@ -284,7 +289,7 @@
  <!-- KIDS -->
  <div id="kids" class="collapse principal"  aria-labelledby="btnkids" data-parent="#programas" >
     <div class="bg4"></div>
-    <div class="card card-body py-5" style="font-size: 1.2em">
+    <div class="card card-body py-5" style="background: #EFF3F5; font-size: 1.2em">
       <h3>Emcakids</h3>
       <hr>
       <div class="row">
@@ -321,7 +326,7 @@
 
   <!-- EVENTOS -->
   <section id="eventos" class=" py-5">
-      <h3 class="text-center mb-5" style="color:#3A3268;font-size: 2em">Eventos</h3>
+      <h3 class="text-center mb-5" style="background:white;color:#3A3268;font-size: 2em">Eventos</h3>
   </section>
 
   <!-- CONTACTANOS -->
@@ -401,6 +406,37 @@
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE"></script>
   <script src="js/maps.js"></script>
 
+  <script>
+    $(document).ready(function(){
+      console.log("entro")
+      // Add scrollspy to <body>
+      $('body').scrollspy({target: ".navbar", offset: 50});   
+      console.log("entro aqui")
+      // Add smooth scrolling on all links inside the navbar
+      $("#myNavbar a").on('click', function(event) {
+        console.log("entro aquisito")
+        // Make sure this.hash has a value before overriding default behavior
+        if (this.hash !== "") {
+          // Prevent default anchor click behavior
+          event.preventDefault();
+    
+          // Store hash
+          var hash = this.hash;
+    
+          // Using jQuery's animate() method to add smooth page scroll
+          // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 800, function(){
+       
+            // Add hash (#) to URL when done scrolling (default click behavior)
+            window.location.hash = hash;
+          });
+        }  // End if
+      });
+    });
+    </script>
+    
 </body>
 
 </html>
