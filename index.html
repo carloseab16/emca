@@ -11,6 +11,9 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
     crossorigin="anonymous">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/animated.css">
+  <link rel="stylesheet" href="css/hover-min.css">
+  <link rel="stylesheet" href="css/aos.css">
   <link rel="icon" href="img/icon.png">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <title>EMCA</title>
@@ -26,24 +29,24 @@
         <i class="fa fa-bars" style="color: #3A3268"></i>
       </button>
       <div class="collapse navbar-collapse" id="myNavbar">
-        <ul class="navbar-nav mr-auto ">
-            <li class="nav-item active my-toggler">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item hvr-pulse">
                 <a href="#header" class="nav-link">INICIO</a>
               </li>
-          <li class="nav-item active my-toggler">
+          <li class="nav-item hvr-pulse ">
             <a href="quienes.html" class="nav-link">QUIENÉS SOMOS</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item hvr-pulse">
             <a href="#programas" class="nav-link">PROGRAMAS EDUCATIVOS</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item hvr-pulse">
             <a href="#eventos" class="nav-link">EVENTOS</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item hvr-pulse">
             <a href="#contactanos" class="nav-link">CONTACTO</a>
           </li>
-          <li class="nav-item">
-            <a href="#ASAS" class="nav-link">
+          <li class="nav-item hvr-pulse">
+            <a href="emcakids.html" class="nav-link">
               <span style="color:#ECBF04">EMCA</span>
               <span style="color:#E34591">KIDS</span>
             </a>
@@ -72,9 +75,10 @@
   <!-- PORTADAS -->
   <section>
     <div class="primary-overlay text-white" id="home">
-      <div class="container-fluid " style="padding-right: 0px !important;padding-left: 0px !important;">
-        <img class="d-none d-lg-block" src="img/logo.png" height="30%" style="position:absolute;margin:60px; margin-top:40px;z-index: 1;">
-
+      <div class="container-fluid" style="padding-right: 0px !important;padding-left: 0px !important;">
+        <div class="d-none d-lg-block hvr-buzz-out" style="position:absolute;margin:60px; margin-top:40px;z-index: 1;">
+        <img class="jello animated" src="img/logo.png" height="300px" >
+       </div>
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
           <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -114,34 +118,34 @@
 
   <!-- CURSOS -->
   <section id="programas" class=" fondoplomo">
-    <div class="container" style="max-width:none">
-      <h3 class="text-center mb-5 mt-5" style="color:#3A3268;font-size: 2em">Programas Educativos</h3>
+    <div class="container-fluid pb-3" style="max-width:none">
+      <h3 class="text-center p-5" style="color:#3A3268;font-size: 2em">Programas Educativos</h3>
       <!-- <h3 class="d-block d-xl-none" style="text-align: center;color:#3A3268">Programas Educativos</h3>-->
-      <div class="row ">
+      <div class="row  mb-5">
         <div class="col-md-1 "> </div>
-        <div class="col-md-2 col-sm-4 col-12 programas">
-          <div class="boton">
+        <div class="col-md-2 col-sm-4 col-12 programas ">
+          <div class="boton hvr-pulse-grow" data-aos="flip-right">
             Programa de Musica Contemporánea
           </div>
         </div>
         <div class="port-item col-md-2 col-sm-4 col-12 programas" id="btnproduccion">
-          <div class="boton"  data-toggle="collapse" data-target="#produccion">
+          <div class="boton  hvr-pulse-grow " data-aos="flip-right"  data-toggle="collapse" data-target="#produccion">
             Programa Técnico de producción y sonido
           </div>
         </div>
 
         <div class="port-item col-md-2 col-sm-4 col-12 programas"  id="btnpreemca">
-          <div class="boton"  data-toggle="collapse" data-target="#preemca">
+          <div class="boton  hvr-pulse-grow" data-aos="flip-right" data-toggle="collapse" data-target="#preemca">
             PRE-EMCA Programa de introducción a la musica
           </div>
         </div>
         <div class="port-item col-md-2 col-sm-4 col-12  programas"  id="btnlibres">
-          <div class="boton" data-toggle="collapse" data-target="#libres">
+          <div class="boton  hvr-pulse-grow" data-aos="flip-right" data-toggle="collapse" data-target="#libres">
             Cursos libres y cursos de extensión
           </div>
         </div>
         <div class="port-item col-md-2 col-sm-4 col-12  programas" id="btnkids">
-          <div class="boton" data-toggle="collapse" data-target="#kids">
+          <div class="boton  hvr-pulse-grow" data-aos="flip-right" data-toggle="collapse" data-target="#kids">
             EMCAKIDS Programa integral de artes para niños
           </div>
         </div>
@@ -150,7 +154,7 @@
     </div>
 
   <!-- Produccion -->
-  <div id="produccion" class="collapse principal " aria-labelledby="btnproduccion" data-parent="#programas">
+  <div id="produccion" class="collapse principal "  aria-labelledby="btnproduccion" data-parent="#programas">
       <div class="bg"></div>
       <div class="card card-body py-5" style="background: #EFF3F5; font-size: 1.2em">
         <h3>Programa técnico de producción y sonido</h3>
@@ -328,15 +332,15 @@
   </section>
 
   <!-- EVENTOS -->
-  <section id="eventos" class=" py-5">
-      <h3 class="text-center mb-5" style="background:white;color:#3A3268;font-size: 2em">Eventos</h3>
+  <section id="eventos" class="pb-5">
+      <h3 class="text-center p-5" style="background:white;color:#3A3268;font-size: 2em">Eventos</h3>
   </section>
 
   <!-- CONTACTANOS -->
   <section id="contactanos" class="contactanos py-5">
     <div class="container-fluid">
       <div class="row">
-        <div class="col-md-6 pr-5 pl-5" style="color: #EFF3F5">
+        <div class="col-md-6 pr-5 pl-5 " data-aos="fade-right" style="color: #EFF3F5">
           <h2>Contacta con
               nosotros</h2>
           <hr>
@@ -356,7 +360,7 @@
 
         <div class="col-md-6 ">
 
-          <div class="form-area">
+          <div class="form-area " data-aos="fade-left" >
             <form role="form">
               <br style="clear:both">
               <h3 style="margin-bottom: 25px; text-align: center;color:#3A3268;">Contactanos</h3>
@@ -388,7 +392,7 @@
   <div id="map-container" class="z-depth-1" style="height: 500px"></div>
 
   <!-- Footer -->
-  <footer class=" footers">
+  <footer class="footers">
     <div class="container">
       <div class="d-flex justify-content-center">
         <p>Todos los derechos Reservados por EMCA
@@ -408,7 +412,7 @@
     crossorigin="anonymous"></script>
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE"></script>
   <script src="js/maps.js"></script>
-
+  <script src="js/aos.js"></script>
   <script>
     $(document).ready(function(){
       console.log("entro")
@@ -421,7 +425,7 @@
         // Make sure this.hash has a value before overriding default behavior
         if (this.hash !== "") {
           // Prevent default anchor click behavior
-          event.preventDefault();
+         // event.preventDefault();
     
           // Store hash
           var hash = this.hash;
@@ -456,6 +460,10 @@
 
     });
     </script>
+
+<script>
+    AOS.init();
+  </script>
 </body>
 
 </html>

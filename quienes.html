@@ -11,6 +11,9 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
     crossorigin="anonymous">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/animated.css">
+  <link rel="stylesheet" href="css/hover-min.css">
+  <link rel="stylesheet" href="css/aos.css">
   <link rel="icon" href="img/icon.png">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <title>EMCA</title>
@@ -27,22 +30,22 @@
       </button>
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="navbar-nav mr-auto ">
-          <li class="nav-item active my-toggler">
+          <li class="nav-item hvr-pulse">
             <a href="index.html" class="nav-link">INICIO</a>
           </li>
-          <li class="nav-item active my-toggler">
+          <li class="nav-item hvr-pulse">
             <a href="#presentacion" class="nav-link">QUIENÉS SOMOS</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item hvr-pulse">
             <a href="index.html#programas" class="nav-link">PROGRAMAS EDUCATIVOS</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item hvr-pulse">
             <a href="index.html#eventos" class="nav-link">EVENTOS</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item hvr-pulse">
             <a href="index.html#contactanos" class="nav-link">CONTACTO</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item hvr-pulse">
             <a href="#ASAS" class="nav-link">
               <span style="color:#ECBF04">EMCA</span>
               <span style="color:#E34591">KIDS</span>
@@ -52,8 +55,7 @@
         <ul class=" navbar-nav  my-2 my-lg-0">
 
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
-              aria-expanded="false">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               LOGIN
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -74,18 +76,18 @@
     <div class="container-fluid">
       <div class="row" style="margin-bottom: 2em">
         <div class="col-sm-6 col-12">
-          <img class="mt-5" src="img/logo2.png" style="position:relative;height: 15em; margin-left: 5em;margin-bottom:5em;z-index: 1;">
+          <img class="mt-5 bounceInLeft animated" src="img/logo2.png" style="position:relative;height: 15em; margin-left: 5em;margin-bottom:5em;z-index: 1;">
         </div>
         <div class="col-sm-6 col-12">
-          <span class="float-right mr-5 d-none d-lg-block" style="margin-top:0.8em;color:#3A3268;font-size: 8em;font-weight:bold">emca</span>
+          <span class="float-right mr-5 d-none d-lg-block bounceInRight animated" style="margin-top:0.8em;color:#3A3268;font-size: 8em;font-weight:bold">emca</span>
         </div>
 
       </div>
       <hr>
       <div class="row">
-        <div class="col-md-6 pl-lg-5">
+        <div class="col-md-6 pl-lg-5  bounceInLeft animated" >
 
-          <span style="text-align: justify; display:block;color:#3A3268;font-size:1.2em;">La EMCA fue fundada en el año 2013 por Rafael Astete Jiménez, quien luego de culminar sus estudios en la Faculdade
+          <span style="text-align: justify; display:block;color:#3A3268;font-size:1.2em;" >La EMCA fue fundada en el año 2013 por Rafael Astete Jiménez, quien luego de culminar sus estudios en la Faculdade
             Souza Lima & Berklee en Brasil retoma su labor como docente, preparando a músicos que deseaban, al igual que
             él, continuar sus estudios musicales en el extranjero.
             <br>
@@ -105,14 +107,14 @@
 
         <div class="col-md-6 ">
 
-          <img src="img/q1.jpg" class="img-fluid rounded mx-auto d-block " style="max-width: 65% !important" alt="Responsive image">
+          <img src="img/q1.jpg" class="img-fluid rounded mx-auto d-block bounceInRight animated" style="max-width: 65% !important" alt="Responsive image">
           <br>
           <br>
 
         </div>
       </div>
       
-      <div class="card card-body py-5 mb-4" style="background: #EFF3F5;color:#3A3268 ">
+      <div class="card card-body py-5 mb-4" data-aos="flip-left" style="background: #EFF3F5;color:#3A3268 ">
         <div class="row">
 
           <div class="col-md-6 pl-lg-5">
@@ -145,21 +147,21 @@
   <section id="alaemus" class=""  style="background: #1CB5BE">
     <div class="container-fluid">
         <div class="row">
-        <div class="col-md-8  pl-lg-5 col-12">
+        <div class="col-md-8  pl-lg-5 col-12 "  data-aos="fade-right">
             <span style="margin-top:100px;font-size:3em; font-weight: bold;color:#3A3268">Asociación latinoamericana de 
                 escuelas de música – alaemus </span>          
           </div>
-          <div class="col-md-4 col-12  ">
+          <div class="col-md-4 col-12  "  data-aos="fade-left">
               <img class="float-right mr-5 mt-5 d-none d-lg-block" src="img/logo3.png" style="height: 8em;">
         </div>
       </div>
       <div class="row">
           <div class="col-md-6 ">
-              <img src="img/alaemus.jpg" class="img-fluid rounded mx-auto d-block " style="max-width: 30% !important" alt="Responsive image">
+              <img src="img/alaemus.jpg" data-aos="fade-right" class="img-fluid rounded mx-auto d-block " style="max-width: 30% !important" alt="Responsive image">
               <br>
               <br>
             </div>
-            <div class="col-md-6 pr-lg-5 mt-5 ">
+            <div class="col-md-6 pr-lg-5 mt-5 " data-aos="fade-left">
                 <span style="text-align: justify; font-size:1.2em;display:block;color:#3A3268">Desde el año 2014 la EMCA es miembro activo y reconocido de la más prestigiosa 
                     asociación de escuelas de música a nivel Latinoamérica, brindándole a nuestros 
                     estudiantes la posibilidad de participar anualmente del Congreso Latinoamericano 
@@ -184,11 +186,11 @@
     <section id="alaemus" class"p-5" style="background: #EFF3F5">
         <div class="container-fluid">
             <br><br>
-            <h3 class="ml-4"style="font-size: 2em; display:block;color:#3A3268">Convenios</h3>
+            <h3 class="ml-4"style="font-size: 2em; display:block;color:#3A3268"  data-aos="fade-right" >Convenios</h3>
             
             <div class="row">
             
-            <div class="col-md-6 pl-lg-5 col-12">
+            <div class="col-md-6 pl-lg-5 col-12 "  data-aos="fade-right">
                 <span style="text-align: justify; display:block;color:#3A3268;font-size:1.2em;">EMCA nace a raíz de un convenio con la prestigiosa Faculdade Souza 
                     Lima & Berklee, 
                     Sao Paulo, Brasil, compartiendo con nosotros la 
@@ -209,7 +211,7 @@
                     </div> 
                 </div>      
               </div>
-              <div class="col-md-6 pl-lg-5 pr-lg-5col-12">
+              <div class="col-md-6 pl-lg-5 col-12"  data-aos="fade-left">
                   <span style="text-align: justify; display:block;color:#3A3268;font-size:1.2em;">Durante estos años, se han venido forjando, además, nuevos convenios 
                       interinstitucionales con varias de las más importantes instituciones 
                       educativas de la región, permitiendo el intercambio de estudiantes y 
@@ -284,7 +286,7 @@
     crossorigin="anonymous"></script>
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE"></script>
   <script src="js/maps.js"></script>
-
+  <script src="js/aos.js"></script>
   <script>
     $(document).ready(function () {
       console.log("entro")
@@ -318,7 +320,10 @@
       });
     });
   </script>
-
+<script>
+  AOS.init();
+</script>
+</body>
 </body>
 
 </html>
