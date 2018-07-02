@@ -1,6 +1,21 @@
 body{
   font-size: 16px !important;
 }
+
+@font-face {
+    font-family: GothamBold;
+    src: url(../fonts/GothamRounded-Bold.otf) format("opentype");
+}
+@font-face {
+  font-family: GothamMedium;
+  src: url(../fonts/GothamRounded-Medium.otf) format("opentype");
+}
+@font-face {
+  font-family: dkBrushzilla;
+  src: url(../fonts/dkBrushzilla.otf) format("opentype");
+}
+
+
 .navbar {
   box-shadow: 1px 1px 5px #3A3268;
   /*opacity: 0.9;*/
@@ -129,6 +144,52 @@ body{
   height: 100%;
   margin: 0;
 }
+.fix-height{
+  height: 100%;
+}
+.fix-height body{
+  height: 100%;
+}
+.fix-height body .bgkids{
+  height: 100%;
+}
+
+html,
+body {
+/* width: 100%;
+height: 100%; */
+}
+
+body{
+  overflow: hidden;
+  overflow-y: auto;
+}
+
+.bgkids {
+  position: relative;
+  /* The image used */
+  /* background-image: url(../img/kids/kids.jpg); 
+  background-size: cover;
+  height: 100%; */
+}
+.bgkids img{
+
+  width: 100%;
+}
+.bgkids > div{
+  position: absolute;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.bgkids > div img{
+  height: auto;
+  width: 50%;
+  position: absolute;
+}
+
 
 .bg {
   /* The image used */
@@ -137,7 +198,6 @@ body{
   height: 500px; 
   /* Center and scale the image nicely */
   background-position: center;
-  background-repeat: no-repeat;
   background-size: cover;
 }
 
