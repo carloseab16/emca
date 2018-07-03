@@ -68,27 +68,18 @@ body{
   overflow: hidden;
   background:#3A3268 !important;
   color:white;
-  
-
 }
-
 
 .footers{
-
   background:#3A3268 !important;
   color:white;
-  
-
 }
-
 
 .fondo{
   overflow: auto;
   background-color:#3A3268 !important;
 
-
 }
-
 .cursos1{
   overflow: auto;
   color:#1CB5BE;
@@ -190,7 +181,15 @@ body{
   position: absolute;
 }
 
-
+.bg0 {
+  /* The image used */
+  background-image: url("../img/p0.jpg");
+  /* Full height */
+  height: 500px; 
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-size: cover;
+}
 .bg {
   /* The image used */
   background-image: url("../img/p1.jpg");
@@ -240,9 +239,26 @@ body{
 
 }
 
-
 #programas [aria-expanded="true"] { 
   background-color:#1CB5BE;
+  color: white;
+}
+
+#contemporanea [aria-expanded="true"] { 
+  
+  background-color:#3D3060;
+  color: white;
+}
+
+
+#profesional [aria-expanded="true"] { 
+  background-color:#1CB5BE;
+  color: white;
+}
+
+#tecnico [aria-expanded="true"] { 
+  
+  background-color:#3D3060;
   color: white;
 }
 
@@ -251,7 +267,7 @@ body{
   width: 75%;
   border-radius:0;
   background: #FFE800;
-  color: #A33489;
+  color: #3D3060;
   padding: 14px 24px;
   border: 0 none;
   white-space: normal; 
@@ -262,7 +278,73 @@ body{
 }
 
 .boton2:hover{
-  background-color: #A33489; 
+  background-color: #3D3060; 
+  color: white;
+}
+
+.boton4{
+  width: 30%;
+  border-radius:0;
+  background: #FFE800;
+  color: #3D3060;
+  padding: 14px 24px;
+  border: 0 none;
+  white-space: normal; 
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: bold;
+  font-size:1.5em  !important;
+}
+
+.boton4:hover{
+  background-color: #1CB5BE; 
+  color: white;
+}
+
+.boton5{
+  width:30%;
+  border-radius:0;
+  background: #FFE800;
+  color: #3D3060;
+  padding: 14px 24px;
+  border: 0 none;
+  white-space: normal; 
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: bold;
+  font-size:1.5em  !important;
+}
+
+.boton5:hover{
+  background-color: #3D3060; 
+  color: white;
+}
+
+.face{
+  color: white;
+}
+.face:hover{
+  color: #1CB5BE !important;
+}
+
+.boton3{
+  width: 100%;
+  height: 100%;
+  border-radius:0;
+  background: #FFE800;
+  color: #3D3060;
+  padding: 14px 24px;
+  border: 0 none;
+  white-space: normal; 
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: bold;
+  font-size:1.5em  !important;
+}
+
+
+.boton3:hover{
+  background-color: #3D3060; 
   color: white;
 }
 
